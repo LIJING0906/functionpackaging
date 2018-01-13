@@ -2,18 +2,6 @@
  * Created by J-LIN on 2017/9/14.
  */
 
-
-/**
- * 通过id获取元素
- * @param sid   传入的id
- * @returns {Element|HTMLElement}  取到的元素
- */
-function id(sid) {
-
-    return document.getElementById(sid);
-}
-
-
 /**
  * 取到双标签之间的文本
  * @param ele 就代表你传入什么元素，我就帮你取这个元素标签里的内容

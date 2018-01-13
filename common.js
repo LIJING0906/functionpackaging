@@ -180,6 +180,8 @@ function getPagePosition(e) {
 /**
  * 阻止事件冒泡
  * @param e  事件对象
+ * 在IE/Opera中，是window.event，而在Firefox中，是event
+ * 而事件的触发对象，在IE中是window.event.srcElement，在Firefox中是event.target，而在Opera中则两者都支持。
  */
 function stopPropagation(e){
 
